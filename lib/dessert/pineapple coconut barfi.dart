@@ -17,7 +17,7 @@ class _pineapplecoconutbarfiState extends State<pineapplecoconutbarfi> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/rehmat sheeren logo.jpg")),
@@ -25,30 +25,30 @@ class _pineapplecoconutbarfiState extends State<pineapplecoconutbarfi> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/pineapple coconut barfi.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME :  PINEAPPLE COCONUT BARFI",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : DESSERT",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.690.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

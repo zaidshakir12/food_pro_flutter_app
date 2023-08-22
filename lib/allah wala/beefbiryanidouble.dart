@@ -17,31 +17,31 @@ class _beefbiryanidoubleState extends State<beefbiryanidouble> {
           toolbarHeight: 300,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/allah wala logo.png")),
           )),
       body: SingleChildScrollView(
         child: Column(children: [
-          Container(
+          SizedBox(
             width: 400,
             height: 400,
             child: Image.asset("asset/image/beef biryani double.PNG"),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "FOOD NAME : BEEF BIRYANI DOUBLE",
               style: TextStyle(fontSize: 20),
             ),
           ),
           Container(
-            child: Text(
+            child: const Text(
               "CATEGORY : BIRYANI",
               style: TextStyle(fontSize: 20),
             ),
           ),
-          MyCounterButton()
+          const MyCounterButton()
         ]),
       ),
     );

@@ -24,7 +24,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
         automaticallyImplyLeading: false,
         toolbarHeight: 200,
         title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/mc logo.png"))),
@@ -36,7 +36,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
               height: 30,
               width: 100,
               color: Colors.black,
-              child: Center(
+              child: const Center(
                 child: Text(
                   "BEEF",
                   style: TextStyle(
@@ -46,7 +46,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                 ),
               ),
             ),
-            Container(
+            SizedBox(
               height: 300,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -59,10 +59,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => quaterpounder(),
+                                  builder: (context) => const quaterpounder(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child:
@@ -70,8 +70,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("QUARTER POUNDER"),
-                      Text(
+                      const Text("QUARTER POUNDER"),
+                      const Text(
                         "Rs.700.00",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20),
@@ -86,18 +86,18 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => mcroyale(),
+                                  builder: (context) => const mcroyale(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset("asset/image/Mc royal.PNG"),
                           ),
                         ),
                       ),
-                      Text("MCROYALE"),
-                      Text("Rs.700.00",
+                      const Text("MCROYALE"),
+                      const Text("Rs.700.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],
@@ -110,10 +110,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => doublecheeseburger(),
+                                  builder: (context) => const doublecheeseburger(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset(
@@ -121,8 +121,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("DOUBLE CHEESE BURGER"),
-                      Text("Rs.650.00",
+                      const Text("DOUBLE CHEESE BURGER"),
+                      const Text("Rs.650.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],
@@ -134,7 +134,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
               height: 30,
               width: 200,
               color: Colors.black,
-              child: Center(
+              child: const Center(
                 child: Text(
                   "CHICKEN & FISH",
                   style: TextStyle(
@@ -144,7 +144,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                 ),
               ),
             ),
-            Container(
+            SizedBox(
               height: 300,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -157,18 +157,18 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => mcchickenburger(),
+                                  builder: (context) => const mcchickenburger(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset("asset/image/Mc chicken.PNG"),
                           ),
                         ),
                       ),
-                      Text("MCCHICKEN"),
-                      Text(
+                      const Text("MCCHICKEN"),
+                      const Text(
                         "Rs.470.00",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20),
@@ -183,18 +183,18 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => mcarabia(),
+                                  builder: (context) => const mcarabia(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset("asset/image/Mc arabia.PNG"),
                           ),
                         ),
                       ),
-                      Text("MCARABIA"),
-                      Text("Rs.540.00",
+                      const Text("MCARABIA"),
+                      const Text("Rs.540.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],
@@ -207,10 +207,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => chickennuggets(),
+                                  builder: (context) => const chickennuggets(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset(
@@ -218,8 +218,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("Chicken McNuggets 6 pcs"),
-                      Text("Rs.530.00",
+                      const Text("Chicken McNuggets 6 pcs"),
+                      const Text("Rs.530.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],
@@ -231,7 +231,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
               height: 30,
               width: 120,
               color: Colors.black,
-              child: Center(
+              child: const Center(
                 child: Text(
                   "DESSERTS",
                   style: TextStyle(
@@ -241,7 +241,7 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                 ),
               ),
             ),
-            Container(
+            SizedBox(
               height: 300,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -254,10 +254,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => doublechocolatepie(),
+                                  builder: (context) => const doublechocolatepie(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child: Image.asset(
@@ -265,8 +265,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("DOUBLE CHOCOLATE PIE"),
-                      Text(
+                      const Text("DOUBLE CHOCOLATE PIE"),
+                      const Text(
                         "Rs.450.00",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20),
@@ -281,10 +281,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => mcflurryoreo(),
+                                  builder: (context) => const mcflurryoreo(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child:
@@ -292,8 +292,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("MC FLURRY OREO"),
-                      Text("Rs.550.00",
+                      const Text("MC FLURRY OREO"),
+                      const Text("Rs.550.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],
@@ -306,10 +306,10 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => chocolatesundae(),
+                                  builder: (context) => const chocolatesundae(),
                                 ));
                           },
-                          child: Container(
+                          child: SizedBox(
                             width: 200,
                             height: 200,
                             child:
@@ -317,8 +317,8 @@ class _mcdonald_burgerState extends State<mcdonald_burger> {
                           ),
                         ),
                       ),
-                      Text("CHOCOLATE SUNDAE"),
-                      Text("Rs.550.00",
+                      const Text("CHOCOLATE SUNDAE"),
+                      const Text("Rs.550.00",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20)),
                     ],

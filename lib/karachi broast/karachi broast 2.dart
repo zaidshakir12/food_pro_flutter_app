@@ -17,7 +17,7 @@ class _karachibroast2State extends State<karachibroast2> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/karachi broast logo.jpg")),
@@ -25,30 +25,30 @@ class _karachibroast2State extends State<karachibroast2> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/karachi broast 2.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME :BROAST HALF",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : BROAST",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.1090.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

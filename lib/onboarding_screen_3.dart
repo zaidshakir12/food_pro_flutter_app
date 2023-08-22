@@ -32,7 +32,7 @@ class _OnBoardingScreen3State extends State<OnBoardingScreen3> {
                 color: Colors.black,
                 height: 40,
                 width: 195,
-                child: Text(
+                child: const Text(
                   "FOOD PARADISE",
                   style: TextStyle(
                       fontSize: 25,
@@ -46,13 +46,13 @@ class _OnBoardingScreen3State extends State<OnBoardingScreen3> {
               padding: const EdgeInsets.only(top: 150),
               child: Container(
                 color: Colors.black,
-                child: Text(
+                child: const Text(
                   "GRAB THE BEST DEALS AROUND",
                   style: TextStyle(color: Colors.white, fontSize: 30),
                 ),
               ),
             ),
-            Text(
+            const Text(
               "Grab the best deals and discounts around and save on your every order",
               style: TextStyle(color: Colors.white, fontSize: 20),
             ),

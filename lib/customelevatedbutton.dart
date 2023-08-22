@@ -11,7 +11,7 @@ class MyElevatedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        constraints: BoxConstraints(maxWidth: 400),
+        constraints: const BoxConstraints(maxWidth: 400),
         height: 50,
         width: MediaQuery.sizeOf(context).width * 0.5,
         child: ElevatedButton(

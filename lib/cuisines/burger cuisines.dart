@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:foodpro_app/kfc/krunch%20burger%20.dart';
 import 'package:foodpro_app/mc%20donalds/McChicken.dart';
 
@@ -25,7 +24,7 @@ class _burgercuisinesState extends State<burgercuisines> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -36,14 +35,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => quaterpounder(),
+                            builder: (context) => const quaterpounder(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/Quarter Pounder.PNG",
@@ -55,11 +54,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "QUARTER POUNDER",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.700.00")
+                const Text("Rs.700.00")
               ],
             ),
           ),
@@ -76,14 +75,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => mcroyale(),
+                            builder: (context) => const mcroyale(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/Mc royal.PNG",
@@ -95,11 +94,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MCROYALE",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.700.00")
+                const Text("Rs.700.00")
               ],
             ),
           ),
@@ -116,14 +115,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => doublecheeseburger(),
+                            builder: (context) => const doublecheeseburger(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/double cheese burger.PNG",
@@ -135,11 +134,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "DOUBLE CHEESE BURGER",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.650.00")
+                const Text("Rs.650.00")
               ],
             ),
           ),
@@ -156,14 +155,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => mcchickenburger(),
+                            builder: (context) => const mcchickenburger(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/Mc chicken.PNG",
@@ -175,11 +174,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MCCHICKEN",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.470.00")
+                const Text("Rs.470.00")
               ],
             ),
           ),
@@ -196,14 +195,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => krunchburger(),
+                            builder: (context) => const krunchburger(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/krunch burger kfc.PNG",
@@ -215,11 +214,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "KRUNCH BURGER",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.270.00")
+                const Text("Rs.270.00")
               ],
             ),
           ),
@@ -236,14 +235,14 @@ class _burgercuisinesState extends State<burgercuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => mightyzinger(),
+                            builder: (context) => const mightyzinger(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/mighty zinger.PNG",
@@ -255,11 +254,11 @@ class _burgercuisinesState extends State<burgercuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MIGHTY ZINGER",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.700.00")
+                const Text("Rs.700.00")
               ],
             ),
           ),

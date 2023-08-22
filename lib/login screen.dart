@@ -73,7 +73,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => app(),
+                              builder: (context) => const app(),
                             ));
                         // if no errors then navigate to your main app screen
                       }

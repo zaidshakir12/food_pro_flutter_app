@@ -17,7 +17,7 @@ class _chocolatesundaeState extends State<chocolatesundae> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/mc logo.png")),
@@ -25,30 +25,30 @@ class _chocolatesundaeState extends State<chocolatesundae> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/Chocolate Sundae.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME : CHOCOLATE SUNDAE ",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : DESSERT",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.550.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

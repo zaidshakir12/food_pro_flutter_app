@@ -23,7 +23,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -34,14 +34,14 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => beefbiryani(),
+                            builder: (context) => const beefbiryani(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/allah wala beef biryani single.PNG",
@@ -53,11 +53,11 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BEEF BIRYANI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.400.00")
+                const Text("Rs.400.00")
               ],
             ),
           ),
@@ -74,14 +74,14 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => beefbiryanidouble(),
+                            builder: (context) => const beefbiryanidouble(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/beef biryani double.PNG",
@@ -93,11 +93,11 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BEEF BIRYANI DOULE",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.600.00")
+                const Text("Rs.600.00")
               ],
             ),
           ),
@@ -114,14 +114,14 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => whitebiryani(),
+                            builder: (context) => const whitebiryani(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/allah wala white biryani.PNG",
@@ -133,11 +133,11 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "WHITE BIRYANI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.400.00")
+                const Text("Rs.400.00")
               ],
             ),
           ),
@@ -154,14 +154,14 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => chickenbiryani(),
+                            builder: (context) => const chickenbiryani(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/allah wala chicken biryani.PNG",
@@ -173,11 +173,11 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "CHICKEN BIRYANI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.320.00")
+                const Text("Rs.320.00")
               ],
             ),
           ),
@@ -194,14 +194,14 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => aloobiryani(),
+                            builder: (context) => const aloobiryani(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/aloo biryani.PNG",
@@ -213,11 +213,11 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "ALOO BIRYANI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.220.00")
+                const Text("Rs.220.00")
               ],
             ),
           ),

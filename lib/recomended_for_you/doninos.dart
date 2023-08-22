@@ -19,7 +19,7 @@ class _dominospizzaState extends State<dominospizza> {
         automaticallyImplyLeading: false,
         toolbarHeight: 300,
         title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/DOMINOS LOGO.png"))),
@@ -35,18 +35,18 @@ class _dominospizzaState extends State<dominospizza> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => largepizza(),
+                          builder: (context) => const largepizza(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset("asset/image/DOMINOS PIZZA LARGE.jpg"),
                   ),
                 ),
               ),
-              Text("LARGE PIZZA"),
-              Text(
+              const Text("LARGE PIZZA"),
+              const Text(
                 "Rs.1499.00",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               )
@@ -60,18 +60,18 @@ class _dominospizzaState extends State<dominospizza> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => mediumpizza(),
+                          builder: (context) => const mediumpizza(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset("asset/image/dominos medium.jpg"),
                   ),
                 ),
               ),
-              Text("MEDIUM PIZZA"),
-              Text("Rs.1099.00",
+              const Text("MEDIUM PIZZA"),
+              const Text("Rs.1099.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),
@@ -83,18 +83,18 @@ class _dominospizzaState extends State<dominospizza> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => fries(),
+                          builder: (context) => const fries(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset("asset/image/dominos fries.jpg"),
                   ),
                 ),
               ),
-              Text("FRIES"),
-              Text("Rs.299.00",
+              const Text("FRIES"),
+              const Text("Rs.299.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),

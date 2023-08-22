@@ -15,11 +15,11 @@ class _splashscreenState extends State<splashscreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 4), () {
+    Timer(const Duration(seconds: 4), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => OnBoardingScreen1(),
+            builder: (context) => const OnBoardingScreen1(),
           ));
     });
   }
@@ -28,7 +28,7 @@ class _splashscreenState extends State<splashscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: 200,
           height: 200,
           child: Image.asset("asset/image/food paradise logo1.png"),

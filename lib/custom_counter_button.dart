@@ -24,7 +24,7 @@ class _MyCounterButtonState extends State<MyCounterButton> {
     return Container(
       width: 120,
       height: 55,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.black,
         shape: BoxShape.rectangle,
       ),

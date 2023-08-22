@@ -87,7 +87,7 @@ class _seafoodState extends State<seafood> {
                 return Card(
                   elevation: 30,
                   color: Colors.grey,
-                  child: Container(
+                  child: SizedBox(
                     width: MediaQuery.sizeOf(context).width * 0.5,
                     height: MediaQuery.sizeOf(context).height * 0.5,
                     child: Column(

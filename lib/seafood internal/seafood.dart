@@ -52,7 +52,7 @@ class _seafoodinternalState extends State<seafoodinternal> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.network(widget.mealItem!.strMealThumb.toString()),
@@ -60,16 +60,16 @@ class _seafoodinternalState extends State<seafoodinternal> {
             Container(
               child: Text(
                 "FOOD NAME : ${widget.mealItem!.strMeal.toString()}",
-                style: TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 20),
               ),
             ),
             Container(
               child: Text(
                 "PRICE:${foodprice[widget.cruntMealItem]}",
-                style: TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class notifications extends StatefulWidget {
   const notifications({super.key});
@@ -17,9 +16,9 @@ class _notificationsState extends State<notifications> {
           onTap: () {
             Navigator.pop(context);
           },
-          child: Icon(Icons.arrow_back_ios_new),
+          child: const Icon(Icons.arrow_back_ios_new),
         ),
-        title: Center(
+        title: const Center(
             child: Text(
           "NOTIFICATIONS",
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
@@ -29,14 +28,14 @@ class _notificationsState extends State<notifications> {
         child: Column(
           children: [
             Center(
-              child: Container(
+              child: SizedBox(
                 width: 400,
                 height: 400,
                 child: Image.asset("asset/image/no notification.jpg"),
               ),
             ),
-            Center(
-              child: Container(
+            const Center(
+              child: SizedBox(
                 height: 200,
                 width: 400,
                 child: Text(

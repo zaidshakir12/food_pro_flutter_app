@@ -17,7 +17,7 @@ class _chickenbotiState extends State<chickenboti> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/BBQ TO NIGHT LOGO.png")),
@@ -25,30 +25,30 @@ class _chickenbotiState extends State<chickenboti> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/chicken boti.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME : CHICKEN BOTI",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : BBQ",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.1000.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

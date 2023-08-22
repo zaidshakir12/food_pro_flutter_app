@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: splashscreen(),
+      home: const splashscreen(),
     );
   }
 }
@@ -35,6 +35,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return OnBoardingScreen1();
+    return const OnBoardingScreen1();
   }
 }

@@ -17,7 +17,7 @@ class _aloobiryaniState extends State<aloobiryani> {
           toolbarHeight: 300,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/allah wala logo.png")),
@@ -27,24 +27,24 @@ class _aloobiryaniState extends State<aloobiryani> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Container(
+              SizedBox(
                 height: 400,
                 width: 400,
                 child: Image.asset("asset/image/aloo biryani.PNG"),
               ),
               Container(
-                child: Text(
+                child: const Text(
                   "FOOD NAME : ALOO BIRYANI",
                   style: TextStyle(fontSize: 20),
                 ),
               ),
               Container(
-                child: Text(
+                child: const Text(
                   "CATEGORY : BIRYANI",
                   style: TextStyle(fontSize: 20),
                 ),
               ),
-              MyCounterButton()
+              const MyCounterButton()
             ],
           ),
         ),

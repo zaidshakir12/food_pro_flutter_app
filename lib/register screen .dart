@@ -84,7 +84,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => app(),
+                              builder: (context) => const app(),
                             ));
                         // if no errors then navigate to your main app screen
                       }

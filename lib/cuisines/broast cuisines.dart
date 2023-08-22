@@ -23,7 +23,7 @@ class _broastcuisinesState extends State<broastcuisines> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -34,14 +34,14 @@ class _broastcuisinesState extends State<broastcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => hotwingsbucket(),
+                            builder: (context) => const hotwingsbucket(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/hot wings bucket kfc.PNG",
@@ -53,11 +53,11 @@ class _broastcuisinesState extends State<broastcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "HOT WINGS BUCKET",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.610.00")
+                const Text("Rs.610.00")
               ],
             ),
           ),
@@ -74,14 +74,14 @@ class _broastcuisinesState extends State<broastcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => chickennuggets(),
+                            builder: (context) => const chickennuggets(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/mc chicken nugets.PNG",
@@ -93,11 +93,11 @@ class _broastcuisinesState extends State<broastcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "CHICKEN MC NUGGETS 6 Pcs",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.530.00")
+                const Text("Rs.530.00")
               ],
             ),
           ),
@@ -114,14 +114,14 @@ class _broastcuisinesState extends State<broastcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => karachibroast1(),
+                            builder: (context) => const karachibroast1(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/karachi broast 1.PNG",
@@ -133,11 +133,11 @@ class _broastcuisinesState extends State<broastcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BROAST QUARTER",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.545.00")
+                const Text("Rs.545.00")
               ],
             ),
           ),
@@ -154,14 +154,14 @@ class _broastcuisinesState extends State<broastcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => karachibroast2(),
+                            builder: (context) => const karachibroast2(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/karachi broast 2.PNG",
@@ -173,11 +173,11 @@ class _broastcuisinesState extends State<broastcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BROAST HALF",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1090.00")
+                const Text("Rs.1090.00")
               ],
             ),
           ),
@@ -194,14 +194,14 @@ class _broastcuisinesState extends State<broastcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => karachibroast3(),
+                            builder: (context) => const karachibroast3(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/karachi boast 3.PNG",
@@ -213,11 +213,11 @@ class _broastcuisinesState extends State<broastcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BROAST FULL",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.2180.00")
+                const Text("Rs.2180.00")
               ],
             ),
           ),

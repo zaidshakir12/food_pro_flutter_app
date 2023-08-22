@@ -17,7 +17,7 @@ class _mcarabiaState extends State<mcarabia> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/mc logo.png")),
@@ -25,30 +25,30 @@ class _mcarabiaState extends State<mcarabia> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/Mc arabia.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME : MC ARABIA",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : ROLL",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.540.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

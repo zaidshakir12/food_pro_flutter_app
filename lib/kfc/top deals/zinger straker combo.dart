@@ -17,7 +17,7 @@ class _zingerstrakercomboState extends State<zingerstrakercombo> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/kfc logo.png")),
@@ -25,30 +25,30 @@ class _zingerstrakercomboState extends State<zingerstrakercombo> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/zinger stacker combo.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME : ZINGER STRAKER COMBO",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 " Zinger Stacker + 1 Regular fries + 1 Regular drink",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.850.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

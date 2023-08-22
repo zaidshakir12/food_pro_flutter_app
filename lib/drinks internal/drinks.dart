@@ -124,7 +124,7 @@ class _drinksinternalState extends State<drinksinternal> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.network(widget.drinkitem!.strDrinkThumb.toString()),
@@ -132,16 +132,16 @@ class _drinksinternalState extends State<drinksinternal> {
             Container(
               child: Text(
                 "FOOD NAME : ${widget.drinkitem!.strDrink.toString()}",
-                style: TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 20),
               ),
             ),
             Container(
               child: Text(
                 "PRICE:${foodprice[widget.cruntMealItem]}",
-                style: TextStyle(fontSize: 20),
+                style: const TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

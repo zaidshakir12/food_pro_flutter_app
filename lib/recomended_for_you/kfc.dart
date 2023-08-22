@@ -25,7 +25,7 @@ class _kfcbroastState extends State<kfcbroast> {
         toolbarHeight: 200,
         backgroundColor: Colors.black,
         title: Center(
-          child: Container(
+          child: SizedBox(
             width: 200,
             height: 200,
             child: Image.asset(
@@ -38,8 +38,8 @@ class _kfcbroastState extends State<kfcbroast> {
         child: Column(
           children: [
             Container(
-              child: Padding(
-                padding: const EdgeInsets.only(top: 15),
+              child: const Padding(
+                padding: EdgeInsets.only(top: 15),
                 child: Text(
                   "BEST SELLING",
                   style: TextStyle(
@@ -49,7 +49,7 @@ class _kfcbroastState extends State<kfcbroast> {
                 ),
               ),
             ),
-            Container(
+            SizedBox(
               height: 300,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -59,7 +59,7 @@ class _kfcbroastState extends State<kfcbroast> {
                     child: Column(
                       children: [
                         Container(
-                          child: Text(
+                          child: const Text(
                             "KRUNCH BURGER",
                             style: TextStyle(
                                 color: Colors.white,
@@ -76,21 +76,21 @@ class _kfcbroastState extends State<kfcbroast> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => krunchburger(),
+                                      builder: (context) => const krunchburger(),
                                     ));
                               },
                               child: Image.asset(
                                   "asset/image/krunch burger kfc.PNG")),
                         ),
                         Container(
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               color: Colors.red,
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(50),
                                   bottomRight: Radius.circular(50))),
                           width: 70,
                           height: 30,
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               "Rs.270",
                               style: TextStyle(color: Colors.white),
@@ -105,7 +105,7 @@ class _kfcbroastState extends State<kfcbroast> {
                     child: Column(
                       children: [
                         Container(
-                          child: Text(
+                          child: const Text(
                             "MIGHTY ZINGER",
                             style: TextStyle(
                                 color: Colors.white,
@@ -122,21 +122,21 @@ class _kfcbroastState extends State<kfcbroast> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => mightyzinger(),
+                                      builder: (context) => const mightyzinger(),
                                     ));
                               },
                               child:
                                   Image.asset("asset/image/mighty zinger.PNG")),
                         ),
                         Container(
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               color: Colors.red,
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(50),
                                   bottomRight: Radius.circular(50))),
                           width: 70,
                           height: 30,
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               "Rs.700",
                               style: TextStyle(color: Colors.white),
@@ -151,7 +151,7 @@ class _kfcbroastState extends State<kfcbroast> {
                     child: Column(
                       children: [
                         Container(
-                          child: Text(
+                          child: const Text(
                             "HOT WINGS BUCKET",
                             style: TextStyle(
                                 color: Colors.white,
@@ -168,7 +168,7 @@ class _kfcbroastState extends State<kfcbroast> {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => hotwingsbucket(),
+                                    builder: (context) => const hotwingsbucket(),
                                   ));
                             },
                             child: Image.asset(
@@ -176,14 +176,14 @@ class _kfcbroastState extends State<kfcbroast> {
                           ),
                         ),
                         Container(
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               color: Colors.red,
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(50),
                                   bottomRight: Radius.circular(50))),
                           width: 70,
                           height: 30,
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               "Rs.610",
                               style: TextStyle(color: Colors.white),
@@ -198,7 +198,7 @@ class _kfcbroastState extends State<kfcbroast> {
                     child: Column(
                       children: [
                         Container(
-                          child: Text(
+                          child: const Text(
                             "KRUNCH COMBO",
                             style: TextStyle(
                                 color: Colors.white,
@@ -215,21 +215,21 @@ class _kfcbroastState extends State<kfcbroast> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => krunchcombo(),
+                                      builder: (context) => const krunchcombo(),
                                     ));
                               },
                               child:
                                   Image.asset("asset/image/krunch combo.PNG")),
                         ),
                         Container(
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                               color: Colors.red,
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(50),
                                   bottomRight: Radius.circular(50))),
                           width: 70,
                           height: 30,
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               "Rs.520",
                               style: TextStyle(color: Colors.white),
@@ -243,7 +243,7 @@ class _kfcbroastState extends State<kfcbroast> {
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "TOP DEALS",
                 style: TextStyle(
                     fontSize: 25,
@@ -251,7 +251,7 @@ class _kfcbroastState extends State<kfcbroast> {
                     fontWeight: FontWeight.bold),
               ),
             ),
-            Container(
+            SizedBox(
               height: 300,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -271,20 +271,20 @@ class _kfcbroastState extends State<kfcbroast> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => crispyduobox(),
+                                      builder: (context) => const crispyduobox(),
                                     ));
                               },
                               child: Image.asset(
                                   "asset/image/crispy duo box.PNG")),
                         ),
-                        Text(
+                        const Text(
                           "CRISPY DUO BOX",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Text(
+                        const Text(
                           "Turn up the fun with 5 pcs Hot & Crispy Chicken + 1...",
                           style: TextStyle(
                               color: Colors.white,
@@ -310,20 +310,20 @@ class _kfcbroastState extends State<kfcbroast> {
                                     context,
                                     MaterialPageRoute(
                                       builder: (context) =>
-                                          zingerstrakercombo(),
+                                          const zingerstrakercombo(),
                                     ));
                               },
                               child: Image.asset(
                                   "asset/image/zinger stacker combo.PNG")),
                         ),
-                        Text(
+                        const Text(
                           "ZINGER STRAKER COMBO",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Text(
+                        const Text(
                           "1 Zinger Stacker + 1 Regular fries + 1 Re...",
                           style: TextStyle(
                               color: Colors.white,
@@ -348,20 +348,20 @@ class _kfcbroastState extends State<kfcbroast> {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => twistercombo(),
+                                    builder: (context) => const twistercombo(),
                                   ));
                             },
                             child: Image.asset("asset/image/twister combo.PNG"),
                           ),
                         ),
-                        Text(
+                        const Text(
                           "TWISTER COMBO",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
-                        Text(
+                        const Text(
                           "Twister + 1 Regular fries + 1 Regular drink",
                           style: TextStyle(
                               color: Colors.white,

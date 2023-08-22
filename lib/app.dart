@@ -29,7 +29,7 @@ class _appState extends State<app> {
       drawer: Drawer(
         child: SingleChildScrollView(
           child: Container(
-            child: Column(
+            child: const Column(
               children: [],
             ),
           ),
@@ -40,12 +40,12 @@ class _appState extends State<app> {
           Padding(
             padding: const EdgeInsets.only(right: 10),
             child: InkWell(
-              child: Icon(Icons.shopping_cart),
+              child: const Icon(Icons.shopping_cart),
               onTap: () {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => deliverypage(),
+                      builder: (context) => const deliverypage(),
                     ));
               },
             ),
@@ -53,9 +53,9 @@ class _appState extends State<app> {
           Padding(
             padding: const EdgeInsets.only(right: 20),
             child: InkWell(
-              child: Icon(Icons.notifications),
+              child: const Icon(Icons.notifications),
               onTap: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => notifications())),
+                  MaterialPageRoute(builder: (context) => const notifications())),
             ),
           ),
         ],
@@ -74,18 +74,18 @@ class _appState extends State<app> {
                 ),
               ),
             ),
-            Text(
+            const Text(
               "RECOMENDED FOR YOU",
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
-            Container(
+            SizedBox(
               height: 200,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
-                    child: Container(
+                    child: SizedBox(
                       width: 200,
                       height: 200,
                       child: InkWell(
@@ -95,7 +95,7 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => allahwalabiryani(),
+                                builder: (context) => const allahwalabiryani(),
                               ));
                         },
                       ),
@@ -103,7 +103,7 @@ class _appState extends State<app> {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
-                    child: Container(
+                    child: SizedBox(
                       width: 200,
                       height: 200,
                       child: InkWell(
@@ -112,7 +112,7 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => mcdonald_burger(),
+                                builder: (context) => const mcdonald_burger(),
                               ));
                         },
                       ),
@@ -120,7 +120,7 @@ class _appState extends State<app> {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
-                    child: Container(
+                    child: SizedBox(
                       width: 200,
                       height: 200,
                       child: InkWell(
@@ -129,7 +129,7 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => kfcbroast(),
+                                builder: (context) => const kfcbroast(),
                               ));
                         },
                       ),
@@ -137,7 +137,7 @@ class _appState extends State<app> {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
-                    child: Container(
+                    child: SizedBox(
                       width: 200,
                       height: 200,
                       child: InkWell(
@@ -146,7 +146,7 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => dominospizza(),
+                                builder: (context) => const dominospizza(),
                               ));
                         },
                       ),
@@ -155,8 +155,8 @@ class _appState extends State<app> {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 10),
+            const Padding(
+              padding: EdgeInsets.only(left: 10),
               child: Row(
                 children: [
                   Text(
@@ -166,7 +166,7 @@ class _appState extends State<app> {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               height: 100,
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -178,14 +178,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => burgercuisines(),
+                                builder: (context) => const burgercuisines(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/burger cuisine.jpeg",
@@ -203,14 +203,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => biryanicuisines(),
+                                builder: (context) => const biryanicuisines(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/biryani  cuisine.jpeg",
@@ -228,14 +228,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => broastcuisines(),
+                                builder: (context) => const broastcuisines(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/broast cuisine.jpeg",
@@ -253,14 +253,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => dessertcuisines(),
+                                builder: (context) => const dessertcuisines(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/dessert cuisine.jpg",
@@ -278,14 +278,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => bbq(),
+                                builder: (context) => const bbq(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/bbq cuisine.jpeg",
@@ -303,14 +303,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => pizzacuisines(),
+                                builder: (context) => const pizzacuisines(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/pizza cuisine.jpeg",
@@ -328,14 +328,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => seafood(),
+                                builder: (context) => const seafood(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/sea food cuisines.webp",
@@ -353,14 +353,14 @@ class _appState extends State<app> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => DrinksScreen(),
+                                builder: (context) => const DrinksScreen(),
                               ));
                         },
                         child: Container(
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
                                   "asset/image/drink and juice cuisines.jpg",

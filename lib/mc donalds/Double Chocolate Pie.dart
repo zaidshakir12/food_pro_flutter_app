@@ -17,7 +17,7 @@ class _doublechocolatepieState extends State<doublechocolatepie> {
           toolbarHeight: 200,
           automaticallyImplyLeading: false,
           title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/mc logo.png")),
@@ -25,30 +25,30 @@ class _doublechocolatepieState extends State<doublechocolatepie> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
+            SizedBox(
               height: 400,
               width: 400,
               child: Image.asset("asset/image/mc double chocolate pie.PNG"),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "FOOD NAME : DOUBLE CHOCOLATE PIE",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "CATEGORY : DESSERT",
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Container(
-              child: Text(
+              child: const Text(
                 "PRICE:Rs.450.00",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            MyCounterButton()
+            const MyCounterButton()
           ],
         ),
       ),

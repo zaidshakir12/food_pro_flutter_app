@@ -21,7 +21,7 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
         automaticallyImplyLeading: false,
         toolbarHeight: 300,
         title: Center(
-            child: Container(
+            child: SizedBox(
                 height: 200,
                 width: 200,
                 child: Image.asset("asset/image/allah wala logo.png"))),
@@ -37,10 +37,10 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => beefbiryani(),
+                          builder: (context) => const beefbiryani(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset(
@@ -48,8 +48,8 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                   ),
                 ),
               ),
-              Text("BEEF BIRYANI"),
-              Text(
+              const Text("BEEF BIRYANI"),
+              const Text(
                 "Rs.400.00",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               )
@@ -63,18 +63,18 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => beefbiryanidouble(),
+                          builder: (context) => const beefbiryanidouble(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset("asset/image/beef biryani double.PNG"),
                   ),
                 ),
               ),
-              Text("BEEF BIRYANI DOUBLE"),
-              Text("Rs.600.00",
+              const Text("BEEF BIRYANI DOUBLE"),
+              const Text("Rs.600.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),
@@ -86,10 +86,10 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => whitebiryani(),
+                          builder: (context) => const whitebiryani(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child:
@@ -97,8 +97,8 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                   ),
                 ),
               ),
-              Text("WHITE BIRYANI"),
-              Text("Rs.400.00",
+              const Text("WHITE BIRYANI"),
+              const Text("Rs.400.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),
@@ -110,10 +110,10 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => chickenbiryani(),
+                          builder: (context) => const chickenbiryani(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset(
@@ -121,8 +121,8 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                   ),
                 ),
               ),
-              Text("CHICKEN BIRYANI"),
-              Text("Rs.320.00",
+              const Text("CHICKEN BIRYANI"),
+              const Text("Rs.320.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),
@@ -134,18 +134,18 @@ class _allahwalabiryaniState extends State<allahwalabiryani> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => aloobiryani(),
+                          builder: (context) => const aloobiryani(),
                         ));
                   },
-                  child: Container(
+                  child: SizedBox(
                     width: 200,
                     height: 200,
                     child: Image.asset("asset/image/aloo biryani.PNG"),
                   ),
                 ),
               ),
-              Text("ALOO BIRYANI"),
-              Text("Rs.220.00",
+              const Text("ALOO BIRYANI"),
+              const Text("Rs.220.00",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             ],
           ),

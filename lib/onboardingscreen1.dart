@@ -32,7 +32,7 @@ class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
                 color: Colors.black,
                 height: 40,
                 width: 195,
-                child: Text(
+                child: const Text(
                   "FOOD PARADISE",
                   style: TextStyle(
                       fontSize: 25,
@@ -46,7 +46,7 @@ class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
               padding: const EdgeInsets.only(top: 150),
               child: Container(
                 color: Colors.black,
-                child: Text(
+                child: const Text(
                   "AWESOME FOOD ",
                   style: TextStyle(
                       color: Colors.white,
@@ -55,7 +55,7 @@ class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
                 ),
               ),
             ),
-            Text(
+            const Text(
               "Discover dilicious food from your nearset restraunts",
               style: TextStyle(color: Colors.white, fontSize: 20),
             ),

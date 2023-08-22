@@ -32,13 +32,13 @@ class _GetStartedPageState extends State<GetStartedPage> {
                 ),
               ),
               child: Column(children: [
-                Text(
+                const Text(
                   "Get Started",
                   style: TextStyle(color: Colors.blue, fontSize: 40),
                 ),
                 Container(
                   color: Colors.black,
-                  child: Text(
+                  child: const Text(
                     "Get stared and enjoy the awesome food right at your home",
                     style: TextStyle(
                         color: Colors.white,

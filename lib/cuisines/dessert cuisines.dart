@@ -26,7 +26,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -37,14 +37,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => gulabjaman(),
+                            builder: (context) => const gulabjaman(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/gulab jaman.PNG",
@@ -56,11 +56,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "GULAB JAMAN ",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -77,14 +77,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => whitechumchum(),
+                            builder: (context) => const whitechumchum(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/white chum chum.PNG",
@@ -96,11 +96,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "WHITE CHUM CHUM",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -117,14 +117,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => balushai(),
+                            builder: (context) => const balushai(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/balushahi.PNG",
@@ -136,11 +136,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BALUSHAHI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -157,14 +157,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => pistaroll(),
+                            builder: (context) => const pistaroll(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/pista roll.PNG",
@@ -176,11 +176,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "PISTA ROLL",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.700.00")
+                const Text("Rs.700.00")
               ],
             ),
           ),
@@ -197,14 +197,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => dhakachumchum(),
+                            builder: (context) => const dhakachumchum(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/dhaka chum chum.PNG",
@@ -216,11 +216,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "DHAKA CHUM CHUM",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -237,14 +237,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => badamcrunch(),
+                            builder: (context) => const badamcrunch(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/badam crunch.PNG",
@@ -256,11 +256,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "BADAM CRUNCH",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.700.00")
+                const Text("Rs.700.00")
               ],
             ),
           ),
@@ -277,14 +277,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => panpairay(),
+                            builder: (context) => const panpairay(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/pan barfi.PNG",
@@ -296,11 +296,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "PAN PAIRAY",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -317,14 +317,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => pineapplecoconutbarfi(),
+                            builder: (context) => const pineapplecoconutbarfi(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/pineapple coconut barfi.PNG",
@@ -336,11 +336,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "PINEAPPLE COCONUT BARFI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.690.00")
+                const Text("Rs.690.00")
               ],
             ),
           ),
@@ -357,14 +357,14 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => malaipuff(),
+                            builder: (context) => const malaipuff(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/malai puff.PNG",
@@ -376,11 +376,11 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MALAI PUFF",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1420.00")
+                const Text("Rs.1420.00")
               ],
             ),
           ),

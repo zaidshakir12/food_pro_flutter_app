@@ -21,7 +21,7 @@ class _pizzacuisinesState extends State<pizzacuisines> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -32,14 +32,14 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => largepizza(),
+                            builder: (context) => const largepizza(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/DOMINOS PIZZA LARGE.jpg",
@@ -51,11 +51,11 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "LARGE PIZZA",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1499.00")
+                const Text("Rs.1499.00")
               ],
             ),
           ),
@@ -72,14 +72,14 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => mediumpizza(),
+                            builder: (context) => const mediumpizza(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/dominos medium.jpg",
@@ -91,11 +91,11 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MEDIUM PIZZA",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1099.00")
+                const Text("Rs.1099.00")
               ],
             ),
           ),
@@ -112,14 +112,14 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => largepizza2(),
+                            builder: (context) => const largepizza2(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/california pizza 2 large.PNG",
@@ -131,11 +131,11 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "CALIFORNIA LARGE PIZZA (2)",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.3299.00")
+                const Text("Rs.3299.00")
               ],
             ),
           ),
@@ -152,14 +152,14 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => largepizza3(),
+                            builder: (context) => const largepizza3(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/california pizza 3 large.PNG",
@@ -171,11 +171,11 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "CALIFORNIA LARGE PIZZA (3)",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.4499.00")
+                const Text("Rs.4499.00")
               ],
             ),
           ),

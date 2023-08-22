@@ -21,7 +21,7 @@ class _bbqState extends State<bbq> {
         Card(
           elevation: 30,
           color: Colors.grey,
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.5,
             height: MediaQuery.sizeOf(context).height * 0.5,
             child: Column(
@@ -32,14 +32,14 @@ class _bbqState extends State<bbq> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => chickenboti(),
+                            builder: (context) => const chickenboti(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/chicken boti.PNG",
@@ -51,11 +51,11 @@ class _bbqState extends State<bbq> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "CHICKEN BOTI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1000.00")
+                const Text("Rs.1000.00")
               ],
             ),
           ),
@@ -72,14 +72,14 @@ class _bbqState extends State<bbq> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => muttonboti(),
+                            builder: (context) => const muttonboti(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/mutton boti.PNG",
@@ -91,11 +91,11 @@ class _bbqState extends State<bbq> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MUTTON BOTI",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.2000.00")
+                const Text("Rs.2000.00")
               ],
             ),
           ),
@@ -112,14 +112,14 @@ class _bbqState extends State<bbq> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => malaitikka(),
+                            builder: (context) => const malaitikka(),
                           ));
                     },
                     child: Container(
                       width: 200,
                       height: 200,
                       decoration: BoxDecoration(
-                          image: DecorationImage(
+                          image: const DecorationImage(
                             fit: BoxFit.fill,
                             image: NetworkImage(
                               "asset/image/malai tikka.PNG",
@@ -131,11 +131,11 @@ class _bbqState extends State<bbq> {
                     ),
                   ),
                 ),
-                Text(
+                const Text(
                   "MALAI TIKKA",
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-                Text("Rs.1600.00")
+                const Text("Rs.1600.00")
               ],
             ),
           ),
