@@ -179,7 +179,7 @@ class _DrinksScreenState extends State<DrinksScreen> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: NetworkImage(
+                                    image: AssetImage(
                                       drinksList[index]
                                           .strDrinkThumb
                                           .toString(),

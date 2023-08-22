@@ -43,7 +43,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/allah wala beef biryani single.PNG",
                             ),
                           ),
@@ -83,7 +83,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/beef biryani double.PNG",
                             ),
                           ),
@@ -123,7 +123,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/allah wala white biryani.PNG",
                             ),
                           ),
@@ -163,7 +163,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/allah wala chicken biryani.PNG",
                             ),
                           ),
@@ -203,7 +203,7 @@ class _biryanicuisinesState extends State<biryanicuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/aloo biryani.PNG",
                             ),
                           ),

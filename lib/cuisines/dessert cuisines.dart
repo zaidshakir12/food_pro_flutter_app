@@ -46,7 +46,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/gulab jaman.PNG",
                             ),
                           ),
@@ -86,7 +86,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/white chum chum.PNG",
                             ),
                           ),
@@ -126,7 +126,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/balushahi.PNG",
                             ),
                           ),
@@ -166,7 +166,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/pista roll.PNG",
                             ),
                           ),
@@ -206,7 +206,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/dhaka chum chum.PNG",
                             ),
                           ),
@@ -246,7 +246,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/badam crunch.PNG",
                             ),
                           ),
@@ -286,7 +286,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/pan barfi.PNG",
                             ),
                           ),
@@ -326,7 +326,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/pineapple coconut barfi.PNG",
                             ),
                           ),
@@ -366,7 +366,7 @@ class _dessertcuisinesState extends State<dessertcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/malai puff.PNG",
                             ),
                           ),

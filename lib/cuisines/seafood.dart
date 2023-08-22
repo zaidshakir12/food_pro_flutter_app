@@ -110,7 +110,7 @@ class _seafoodState extends State<seafood> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: NetworkImage(
+                                    image: AssetImage(
                                       seaFoodDataList[index]
                                           .strMealThumb
                                           .toString(),

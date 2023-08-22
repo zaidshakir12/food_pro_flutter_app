@@ -41,7 +41,7 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/DOMINOS PIZZA LARGE.jpg",
                             ),
                           ),
@@ -81,7 +81,7 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/dominos medium.jpg",
                             ),
                           ),
@@ -121,7 +121,7 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/california pizza 2 large.PNG",
                             ),
                           ),
@@ -161,7 +161,7 @@ class _pizzacuisinesState extends State<pizzacuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/california pizza 3 large.PNG",
                             ),
                           ),

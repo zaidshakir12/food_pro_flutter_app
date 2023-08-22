@@ -187,7 +187,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/burger cuisine.jpeg",
                                 ),
                               ),
@@ -212,7 +212,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/biryani  cuisine.jpeg",
                                 ),
                               ),
@@ -237,7 +237,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/broast cuisine.jpeg",
                                 ),
                               ),
@@ -262,7 +262,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/dessert cuisine.jpg",
                                 ),
                               ),
@@ -287,7 +287,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/bbq cuisine.jpeg",
                                 ),
                               ),
@@ -312,7 +312,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/pizza cuisine.jpeg",
                                 ),
                               ),
@@ -337,7 +337,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/sea food cuisines.webp",
                                 ),
                               ),
@@ -362,7 +362,7 @@ class _appState extends State<app> {
                           decoration: BoxDecoration(
                               image: const DecorationImage(
                                 fit: BoxFit.cover,
-                                image: NetworkImage(
+                                image: AssetImage(
                                   "asset/image/drink and juice cuisines.jpg",
                                 ),
                               ),

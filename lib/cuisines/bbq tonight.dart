@@ -41,7 +41,7 @@ class _bbqState extends State<bbq> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/chicken boti.PNG",
                             ),
                           ),
@@ -81,7 +81,7 @@ class _bbqState extends State<bbq> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/mutton boti.PNG",
                             ),
                           ),
@@ -121,7 +121,7 @@ class _bbqState extends State<bbq> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/malai tikka.PNG",
                             ),
                           ),

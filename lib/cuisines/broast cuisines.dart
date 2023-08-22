@@ -43,7 +43,7 @@ class _broastcuisinesState extends State<broastcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/hot wings bucket kfc.PNG",
                             ),
                           ),
@@ -83,7 +83,7 @@ class _broastcuisinesState extends State<broastcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/mc chicken nugets.PNG",
                             ),
                           ),
@@ -123,7 +123,7 @@ class _broastcuisinesState extends State<broastcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/karachi broast 1.PNG",
                             ),
                           ),
@@ -163,7 +163,7 @@ class _broastcuisinesState extends State<broastcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/karachi broast 2.PNG",
                             ),
                           ),
@@ -203,7 +203,7 @@ class _broastcuisinesState extends State<broastcuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/karachi boast 3.PNG",
                             ),
                           ),

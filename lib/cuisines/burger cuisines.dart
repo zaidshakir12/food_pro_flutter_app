@@ -44,7 +44,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/Quarter Pounder.PNG",
                             ),
                           ),
@@ -84,7 +84,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/Mc royal.PNG",
                             ),
                           ),
@@ -124,7 +124,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/double cheese burger.PNG",
                             ),
                           ),
@@ -164,7 +164,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/Mc chicken.PNG",
                             ),
                           ),
@@ -204,7 +204,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/krunch burger kfc.PNG",
                             ),
                           ),
@@ -244,7 +244,7 @@ class _burgercuisinesState extends State<burgercuisines> {
                       decoration: BoxDecoration(
                           image: const DecorationImage(
                             fit: BoxFit.fill,
-                            image: NetworkImage(
+                            image: AssetImage(
                               "asset/image/mighty zinger.PNG",
                             ),
                           ),
