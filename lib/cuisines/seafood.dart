@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:foodpro_app/seafood%20internal/seafood.dart';
 import 'package:http/http.dart' as http;
+
 import 'seefood_model.dart';
 
 class seafood extends StatefulWidget {
@@ -110,7 +111,7 @@ class _seafoodState extends State<seafood> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: AssetImage(
+                                    image: NetworkImage(
                                       seaFoodDataList[index]
                                           .strMealThumb
                                           .toString(),

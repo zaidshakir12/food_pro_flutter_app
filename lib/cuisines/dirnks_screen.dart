@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
 import '../drinks internal/drinks.dart';
 import 'drinks_model.dart';
 
@@ -179,7 +181,7 @@ class _DrinksScreenState extends State<DrinksScreen> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
-                                    image: AssetImage(
+                                    image: NetworkImage(
                                       drinksList[index]
                                           .strDrinkThumb
                                           .toString(),

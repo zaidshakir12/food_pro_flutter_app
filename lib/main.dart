@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodpro_app/onboardingscreen1.dart';
 import 'package:foodpro_app/splashscreen.dart';
 
 void main() {
@@ -22,4 +21,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
